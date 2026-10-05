@@ -1,0 +1,8 @@
+interface:
+
+  display_name: "XPTV 订阅源制作"
+
+  short_description: "将普通影视网站适配为 XPTV 脚本，验证分类搜索选集播放并准备远程订阅"
+
+  default_prompt: "使用 $xptv-source-builder 将这个普通影视网站制作成 XPTV 订阅源，验证后按我的要求托管。"
+
