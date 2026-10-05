@@ -1,6 +1,6 @@
 // XPTV adapter for Speedo's HuangGuo ForwardWidget script v2.1.9.
 // Set an existing cover decryption Worker URL here if needed.
-var HG_XPTV_COVER_WORKER = "";
+var HG_XPTV_COVER_WORKER = "https://worker-huangguo.plin1236713.workers.dev";
 var HG_XPTV_MEMORY = {};
 var Widget = {
   http: { get: async function (url, options) { return await $fetch.get(url, options); } },
